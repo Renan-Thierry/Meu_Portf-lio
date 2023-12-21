@@ -1,5 +1,5 @@
 import styles from '../styles/About.module.css';
-import perfil from '../../img/perfil.jpeg';
+import perfil from '../../img/about.jpg';
 import { PiMedal } from "react-icons/pi";
 import { HiUsers } from "react-icons/hi2";
 
