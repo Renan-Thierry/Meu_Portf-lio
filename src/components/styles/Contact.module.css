@@ -1,0 +1,130 @@
+.Contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 70vh;
+}
+
+.text_p1 {
+  text-align: center;
+  color: rgb(85, 85, 85);
+}
+
+.title {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.contact_info_upper {
+  display: flex;
+  justify-content: center;
+  border-radius: 2rem;
+  border: #57B7F2 0.1rem solid;
+  border-color: #57B7F2;
+  background: (250, 250, 250);
+  margin: 2rem auto;
+  padding: 0.5rem;
+}
+
+.contact_info_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 1rem;
+}
+
+.contact_info_container p {
+  font-size: larger;
+}
+
+.contact_info_container svg {
+  cursor: default;
+  height: 1.8rem;
+  width: 1.8rem;
+  color: rgb(51, 50, 50);
+}
+
+footer {
+  height: 19vh;
+  margin: 0 1rem;
+}
+
+footer p {
+  text-align: center;
+}
+
+.nav_links_container {
+  display: flex;
+  justify-content: center;
+  margin: 5rem;
+}
+
+.nav_links {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+a {
+  color: grey;
+  text-decoration: none;
+  text-decoration-color: white;
+  cursor: pointer;
+}
+
+a:hover {
+  color: #57B7F2;
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: #57B7F2;
+}
+
+@media screen and (max-width: 1200px) {
+  .Contact {
+    justify-content: start;
+    height: 100%;
+  }
+
+  section {
+    margin: 0 5%;
+  }
+
+  footer {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .title {
+    font-size: 2.4rem;
+  }
+
+  .Contact,
+  footer {
+    height: 40vh;
+  }
+
+  footer {
+    margin: auto;
+    width: 90%;
+  }
+
+  .about_container,
+  .contact_info_upper,
+  .btn_container {
+    flex-wrap: wrap;
+  }
+
+  footer nav {
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+
+  .nav_links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+}
