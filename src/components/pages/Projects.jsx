@@ -17,7 +17,7 @@ function Projects() {
             </div>
             <h2 className={`${styles.experience_subTitle} ${styles.project_title}`}>ConexãoIF</h2>
             <div className={styles.btn_container}>
-              <button className={`${styles.btn} ${styles.btn_1} ${styles.project_btn}`}>GitHub</button>
+              <a href='https://github.com/Renan-Thierry/ConexaoIF-Front' target='blank'><button className={`${styles.btn} ${styles.btn_1} ${styles.project_btn}`}>GitHub</button></a>
               <button className={`${styles.btn} ${styles.btn_1} ${styles.project_btn}`}>Live Demo</button>
             </div>
           </div>
@@ -27,7 +27,7 @@ function Projects() {
             </div>
             <h2 className={`${styles.experience_subTitle} ${styles.project_title}`}>Project Costs</h2>
             <div className={styles.btn_container}>
-              <button className={`${styles.btn} ${styles.btn_1} ${styles.project_btn}`}>GitHub</button>
+              <a href='https://github.com/Renan-Thierry/Projeto_Costs' target='blank'><button className={`${styles.btn} ${styles.btn_1} ${styles.project_btn}`}>GitHub</button></a>
               <button className={`${styles.btn} ${styles.btn_1} ${styles.project_btn}`}>Live Demo</button>
             </div>
           </div>
@@ -35,9 +35,9 @@ function Projects() {
             <div className={styles.article_container}>
               <img src={project3} alt='Projeto 3' className={styles.project_img} />
             </div>
-            <h2 className={`${styles.experience_subTitle} ${styles.project_title}`}>Project One</h2>
+            <h2 className={`${styles.experience_subTitle} ${styles.project_title}`}>MoviesLab</h2>
             <div className={styles.btn_container}>
-              <button className={`${styles.btn} ${styles.btn_1} ${styles.project_btn}`}>GitHub</button>
+              <a href='https://github.com/Renan-Thierry/MoviesLab' target='blank'><button className={`${styles.btn} ${styles.btn_1} ${styles.project_btn}`}>GitHub</button></a>
               <button className={`${styles.btn} ${styles.btn_1} ${styles.project_btn}`}>Live Demo</button>
             </div>
           </div>

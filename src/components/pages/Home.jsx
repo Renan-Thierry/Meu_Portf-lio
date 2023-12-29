@@ -8,6 +8,7 @@ import About from "./About";
 import Experience from "./Experience";
 import Projects from "./Projects";
 import Contact from "./Contact";
+import curriculo from "../../MeuCurriculo(01).pdf"
 
 function Home() {
   return (
@@ -23,7 +24,7 @@ function Home() {
           <h1 className={styles.title}>Renan Thierry</h1>
           <p className={styles.section_p2}>Front-end Developer</p>
           <div className={styles.btn_container}>
-            <button className={`${styles.btn} ${styles.btn_1}`}>Download CV</button>
+            <a href={curriculo} download><button className={`${styles.btn} ${styles.btn_1}`}>Download CV</button></a>
             <button className={`${styles.btn} ${styles.btn_2}`}><a href="#Contact">Contact Info</a></button>
           </div>
           <div className={styles.container_socials}>
